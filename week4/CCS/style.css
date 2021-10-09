@@ -1,0 +1,42 @@
+body{
+    font-size: 16px;
+}
+
+
+h1 {
+    color: rgb(105, 9, 9);
+    font-size: 2.2rem;
+}
+
+.logo{
+    width: 100px;
+    height: auto;
+}
+.page{
+    max-width: 960px;
+    margin: auto;
+}
+
+header, footer{
+    margin: 0 auto;
+    border: 2px solid rgb(39, 19, 1);
+    padding: 0.5rem;
+    background-color: rgb(247, 245, 243);
+    display: grid;
+    grid-template-columns: 350px 1fr;
+    align-items: center;
+    justify-content: center;
+}
+header{
+    grid-template-columns: 350px 1fr;
+}
+
+main{
+    margin: 0.5rem auto;
+    background-color: tomato;
+    padding: 0.5rem;
+}
+
+footer{
+    grid-template-columns:  1fr 120px;
+}
