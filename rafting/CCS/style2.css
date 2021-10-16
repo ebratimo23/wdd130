@@ -1,0 +1,99 @@
+body{
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+h1 {
+    color: rgb(105, 9, 9);
+    font-size: 3rem;
+    font-family: 'Alfa Slab One', cursive;
+    
+}
+h3{
+    color: black;
+    font-size: 2em;
+    font-family: 'Bebas Neue', cursive;
+        
+    border: 6px solid #503703;
+    height: 40px;
+    margin: 25px;
+    padding: 15px;
+    width: 350px;
+}
+
+.position{
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    
+}
+
+.position li{
+    flex: 1 1 auto;
+    
+}
+
+.position a{
+    display: block;
+    padding: 0.5rem;
+    text-decoration: none;
+    background-color: rgb(236, 172, 54);
+    border: 2px solid rgb(29, 29, 28)
+    
+}
+nav{
+    font-family: 'Bebas Neue', cursive;
+}
+
+.logo{
+    width: 100px;
+    height: auto;
+}
+.page{
+    max-width: 960px;
+    margin: auto;
+}
+
+header{
+    margin: 0 auto;
+    border: 2px solid rgb(39, 19, 1);
+    padding: 0.5rem;
+    background-color: rgb(245, 243, 241);
+    display: grid;
+    grid-template-columns: 350px 1fr;
+    align-items: center;
+    justify-content: center;
+}
+header{
+    grid-template-columns: 350px 1fr;
+}
+
+main{
+    margin: 0.5rem auto;
+    background-color: orange;
+    padding: 0.5rem;
+}
+
+p{
+    font-size: 1.2em;
+    line-height: 30px;
+    color: lightgoldenrodyellow;
+}
+
+img{
+    box-shadow: 10px 5px 5px black;
+}
+
+footer{
+    margin: 0 auto;
+    border: 2px solid rgb(39, 19, 1);
+    padding: 0.5rem;
+    background-color: rgb(29, 29, 28);
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns:  1fr 120px;
+}
