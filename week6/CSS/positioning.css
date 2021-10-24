@@ -215,7 +215,7 @@
     width: 600px;
     margin: 1rem auto;
     font-family: Arial, sans-serif;
-    border: 1px solid #777;
+    border: 1px solid rgb(119, 119, 119);
     padding: 1rem;
     clear: both;
     overflow: auto;
