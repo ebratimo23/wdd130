@@ -24,10 +24,7 @@ header{
     border: 2px solid rgb(39, 19, 1);
     padding: 0.5rem;
     background-color: rgb(247, 245, 243);
-    display: grid;
-    grid-template-columns: 350px 1fr;
-    align-items: center;
-    justify-content: center;
+    
 }
 
 
