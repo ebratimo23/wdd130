@@ -1,5 +1,5 @@
 body{
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Times New Roman', Times, serif
 }
 
 .page{
@@ -32,7 +32,3 @@ main{
     background-color: rgb(248, 164, 37);
 }
 
-footer{
-    background-color: black;
-    color: blanchedalmond;
-}
