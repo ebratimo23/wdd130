@@ -11,13 +11,13 @@ body{
 }
 
 header{
-    background-color:black ;
+    background-color: rgb(182, 102, 102);
 }
 h1{
     color: white;
 }
 p{
-    color: white;
+    color: rgb(10, 10, 10);
 }
 .container-header{
     padding: 0;
