@@ -63,7 +63,3 @@ section{
 .promotion{
     grid-column: 1/3;
 }
-section:hover{
-    border: 1px solid #000000;
-
-}
