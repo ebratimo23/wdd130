@@ -1,0 +1,274 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container{
+    padding: 60px;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.title{
+    color: orangered;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+/*Header*/
+
+header{
+    width: 100%;
+    height: 600px;
+    background: #f12711;  
+    background: -webkit-linear-gradientlinear-gradient(to right, hsla(41, 92%, 53%, 0.603), hsla(6, 89%, 51%, 0.603)), url(../img/imagen-3.jpg);
+    background: linear-gradient(to right, hsla(41, 92%, 53%, 0.603), hsla(6, 89%, 51%, 0.603)), url(../img/imagen-3.jpg); 
+    background: cover;
+    background-attachment: fixed;
+    position: relative;
+
+}
+nav{
+    text-align: right;
+    padding: 30px 50px 0 0;
+}
+
+nav > a{
+    color: #fff;
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+nav > a:hover{
+    text-decoration: underline;
+}
+.text-header{
+    display: flex;
+    height: 430px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.text-header h1{
+    font-size: 40px;
+}
+.text-header h2{
+    font-size: 30px;
+    font-weight: 300;
+}
+.wave{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+/*article*/
+
+.shirt{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+.card{
+    position: relative;
+    width: 240px;
+    height: 240px;
+}
+
+.card .face{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border: 2px solid rgb(0, 0, 0);
+    backface-visibility: hidden;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: .5s;
+}
+
+.card .font{
+    transform: perspective(300px) rotateY(0deg);
+    box-shadow: 0 5px 10px #000;
+}
+
+.card .font{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card .font h3{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.6);
+    text-align: center;
+}
+
+.card .back{
+    transform: perspective(600px) rotateY(180deg);
+    background: orangered;
+    padding: 15px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    box-shadow: 0 5px 10px #000;
+}
+
+.card .back .link{
+    border-top: solid 1px #000;
+    height: 50px;
+    line-height: 50px;
+}
+
+.card .back .link a{
+    color: #000;
+}
+
+.card .back h3{
+    font-size: 25px;
+    margin-top: 5px;
+    letter-spacing: 1px;
+}
+
+.card:hover .font{
+    transform: perspective(600px) rotateY(180deg);
+}
+
+.card:hover .back{
+    transform: perspective(600px) rotateY(360deg);
+}
+
+/*promotion*/
+
+.promotion{
+    background: #f12711;  
+    background: -webkit-linear-gradientlinear-gradient(to right, hsla(41, 92%, 53%, 0.603), hsla(6, 89%, 51%, 0.603));
+    background: linear-gradient(to right, hsla(41, 92%, 53%, 0.603), hsla(6, 89%, 51%, 0.603));
+    padding: 60px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+}
+.container-promotion{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+.img-promotion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-p{
+    border-radius: 20px;
+}
+.promotion-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+    padding: 15px;
+}
+
+.promotion-text h1{
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.promotion-text h2{
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+button{
+    width: 150px;
+    height: 50px;
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 20px;
+    background: rgba(233, 65, 23, 0.918);
+}
+/*technology*/
+
+.tecno{
+    display: flex;
+    justify-content: space-evenly;
+}
+.tecno-img{
+    width: 48%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.our .container-text{
+    width: 48%;
+}
+
+.text h3{
+    margin-bottom: 15px;
+}
+
+.text p{
+    padding: 0px 0px 30px 5px;
+    font-weight: 300;
+    text-align: justify;
+}
+
+/*Foote*/
+
+footer{
+    background: #414141;
+    padding: 60px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+}
+.container-footer{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 3px solid #fff;
+}
+
+.contemt-foo{
+    text-align: center;
+
+}
+
+.contemt-foo h4{
+    color: #fff;
+    border-bottom: 3px solid #ff4500;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.contemt-foo p{
+    color: #ccc;
+}
+
+.title-end{
+    text-align: center;
+    font-size: 24px;
+    margin: 20px;
+    color: #fff;
+}
